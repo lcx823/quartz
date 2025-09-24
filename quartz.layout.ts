@@ -5,11 +5,42 @@ import * as Component from "./quartz/components"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+        // 以下是新增内容
+    Component.Comments({
+      provider: 'giscus',
+      options: {
+        // from data-repo
+        repo: 'xxx',
+        // from data-repo-id
+        repoId: 'xxx',
+        // from data-category
+        category: 'Announcements',
+        // from data-category-id
+        categoryId: 'xxx',
+        // how to map pages -> discussions
+        // defaults to 'url'
+        mapping: "pathname",
+        // use strict title matching
+        // defaults to true
+        strict: false,
+        // whether to enable reactions for the main post
+        // defaults to true
+        reactionsEnabled: true,
+        // where to put the comment input box relative to the comments
+        // defaults to 'bottom'
+        inputPosition: "top",
+      }
+    }),
+    // 以上是新增内容
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/jackyzha0/quartz",
       "Discord Community": "https://discord.gg/cRFFHYye7t",
+      // 以下是新增内容
+      "Scroll to top ↑": "#",
+       // 以上是新增内容
     },
   }),
 }
@@ -28,6 +59,7 @@ export const defaultContentPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
+    Component.MobileOnly(ExtraComponent.OverlayExplorer()),
     Component.Flex({
       components: [
         {
@@ -53,6 +85,7 @@ export const defaultListPageLayout: PageLayout = {
   left: [
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
+    Component.MobileOnly(ExtraComponent.OverlayExplorer()),
     Component.Flex({
       components: [
         {
