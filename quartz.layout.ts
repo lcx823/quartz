@@ -11,13 +11,13 @@ export const sharedPageComponents: SharedLayout = {
       provider: 'giscus',
       options: {
         // from data-repo
-        repo: 'xxx',
+        repo: 'lcx823/quartz',
         // from data-repo-id
-        repoId: 'xxx',
+        repoId: '1057698425',
         // from data-category
         category: 'Announcements',
         // from data-category-id
-        categoryId: 'xxx',
+        categoryId: 'announcements',
         // how to map pages -> discussions
         // defaults to 'url'
         mapping: "pathname",
