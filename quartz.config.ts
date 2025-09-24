@@ -6,6 +6,28 @@ import * as Plugin from "./quartz/plugins"
  *
  * See https://quartz.jzhao.xyz/configuration for more information.
  */
+Component.RecentNotes({
+  title: "最近更新",
+  showTags: false,
+  limit: 4,
+  filter: (f) => {
+    if (f.filePath?.endsWith("index.md")) {
+      return false
+    }
+    return true
+  },
+  sort: (f1, f2) => {
+    if (f1.dates && f2.dates) {
+      if (Math.abs(f2.dates.modified.getDay() - f1.dates.modified.getDay())<=3) {
+        return f2.dates.created.getTime() - f1.dates.created.getTime()
+      }
+      return f2.dates.modified.getTime() - f1.dates.modified.getTime()
+    } else if (f1.dates && !f2.dates) {
+      return -1
+    }
+    return 1
+  }
+})
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "yeyusmoring",
@@ -15,8 +37,8 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    locale: "zh-CN",
+    baseUrl: "https://quartz-eix.pages.dev/",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
@@ -64,15 +86,17 @@ const config: QuartzConfig = {
           light: "github-light",
           dark: "github-dark",
         },
-        keepBackground: false,
+        keepBackground: true,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+      Plugin.CrawlLinks({ markdownLinkResolution: "relative", lazyLoad: true }),
       Plugin.Description(),
       Plugin.Latex({ renderEngine: "katex" }),
+      Plugin.HardLineBreaks(),
     ],
+   
     filters: [Plugin.RemoveDrafts()],
     emitters: [
       Plugin.AliasRedirects(),
