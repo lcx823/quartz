@@ -4,4 +4,4 @@ path: content
 en-filename: index
 title: 🏡 首页
 ---
-你好！
+欢迎来到yeyusmoring的数字花园！
