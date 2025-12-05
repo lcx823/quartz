@@ -13,11 +13,11 @@ export const sharedPageComponents: SharedLayout = {
         // from data-repo
         repo: 'lcx823/quartz',
         // from data-repo-id
-        repoId: '1057698425',
+        repoId: 'R_kgDOPwsyeQ',
         // from data-category
         category: 'Announcements',
         // from data-category-id
-        categoryId: 'announcements',
+        categoryId: 'DIC_kwDOPwsyec4Cv2Fj',
         // how to map pages -> discussions
         // defaults to 'url'
         mapping: "pathname",
@@ -29,7 +29,7 @@ export const sharedPageComponents: SharedLayout = {
         reactionsEnabled: true,
         // where to put the comment input box relative to the comments
         // defaults to 'bottom'
-        inputPosition: "top",
+        inputPosition: "bottom",
       }
     }),
     // 以上是新增内容
