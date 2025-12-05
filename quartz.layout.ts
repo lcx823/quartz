@@ -27,11 +27,12 @@ export const sharedPageComponents: SharedLayout = {
         // whether to enable reactions for the main post
         // defaults to true
         reactionsEnabled: true,
+        emitMetadata: false,
         // where to put the comment input box relative to the comments
         // defaults to 'bottom'
         inputPosition: "bottom",
-        data-theme="preferred_color_scheme",
-        data-lang="zh-CN",
+        theme="preferred_color_scheme",
+        lang="zh-CN",
         crossorigin="anonymous"
       }
     }),
