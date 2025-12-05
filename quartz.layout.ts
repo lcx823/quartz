@@ -31,9 +31,9 @@ export const sharedPageComponents: SharedLayout = {
         // where to put the comment input box relative to the comments
         // defaults to 'bottom'
         inputPosition: "bottom",
-        theme="preferred_color_scheme",
-        lang="zh-CN",
-        crossorigin="anonymous"
+        theme: "preferred_color_scheme",
+        lang: "zh-CN",
+        crossorigin: "anonymous"
       }
     }),
     // 以上是新增内容
