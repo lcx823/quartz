@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-
+![[./assets/第7章 Spring中的Bean的管理/file-20260111144950404.png|file-20260111144950404.png]]
 
 # 第7章 Spring中的Bean的管理
 
