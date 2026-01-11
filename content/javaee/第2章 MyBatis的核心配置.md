@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-你好，这是根据你提供的第2章PDF课件整理的详细Obsidian Markdown笔记。
+![[./assets/第2章 MyBatis的核心配置/file-20260111144208807.png|file-20260111144208807.png]]
 
 # 第2章 MyBatis的核心配置
 
