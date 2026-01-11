@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-
+![[./assets/第1章 初识MyBatis框架/file-20260111143837108.png|file-20260111143837108.png]]
 # 第1章 初识MyBatis框架
 
 ## 1.1 初识框架
