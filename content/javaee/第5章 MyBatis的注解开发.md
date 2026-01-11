@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-
+![[./assets/第5章 MyBatis的注解开发/file-20260111144504408.png|file-20260111144504408.png]]
 
 # 第5章 MyBatis的注解开发
 
