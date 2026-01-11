@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-
+![[./assets/第12章 Spring MVC数据绑定和响应/file-20260111145615906.png|file-20260111145615906.png]]
 
 # 第12章 Spring MVC数据绑定和响应
 
