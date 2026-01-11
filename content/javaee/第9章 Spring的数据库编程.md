@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-
+![[./assets/第9章 Spring的数据库编程/file-20260111145223202.png|file-20260111145223202.png]]
 
 # 第9章 Spring的数据库编程
 
