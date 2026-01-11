@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-
+![[./assets/第10章 初识Spring MVC框架/file-20260111145336284.png|file-20260111145336284.png]]
 
 # 第10章 初识Spring MVC框架
 

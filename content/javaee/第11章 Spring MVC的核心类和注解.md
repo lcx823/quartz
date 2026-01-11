@@ -2,7 +2,7 @@
 share: true
 ---
 
-
+![[./assets/第11章 Spring MVC的核心类和注解/file-20260111145455856.png|file-20260111145455856.png]]
 # 第11章 Spring MVC的核心类和注解
 
 ## 11.1 DispatcherServlet

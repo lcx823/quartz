@@ -1,7 +1,7 @@
 ---
 share: true
 ---
-
+![[./assets/第8章 Spring AOP/file-20260111145112380.png|file-20260111145112380.png]]
 
 # 第8章 Spring AOP
 
