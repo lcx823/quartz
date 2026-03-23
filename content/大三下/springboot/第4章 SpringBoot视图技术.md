@@ -5,7 +5,7 @@ created: 2026-03-22
 source: Cherry Studio
 tags:
 ---
-
+![[./assets/第4章 SpringBoot视图技术/第4章 SpringBoot视图技术.png|第4章 SpringBoot视图技术.png]]
 
 # 第4章 SpringBoot视图技术
 

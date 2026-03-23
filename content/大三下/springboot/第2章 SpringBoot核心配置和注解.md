@@ -6,7 +6,7 @@ source: Cherry Studio
 tags:
 ---
 
-
+![[./assets/第2章 SpringBoot核心配置和注解/第2章 SpringBoot核心配置和注解.png|第2章 SpringBoot核心配置和注解.png]]
 # 第2章 SpringBoot核心配置和注解
 
 ## 2.1 全局配置文件

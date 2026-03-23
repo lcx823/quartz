@@ -5,7 +5,7 @@ created: 2026-03-22
 source: Cherry Studio
 tags:
 ---
-
+![[./assets/第6章 SpringBoot缓存管理/第6章 SpringBoot缓存管理.png|第6章 SpringBoot缓存管理.png]]
 
 # 第6章 SpringBoot缓存管理
 

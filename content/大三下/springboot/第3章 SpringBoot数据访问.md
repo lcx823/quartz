@@ -6,7 +6,7 @@ source: Cherry Studio
 tags:
 ---
 
-
+![[./assets/第3章 SpringBoot数据访问/第3章 SpringBoot数据访问.png|第3章 SpringBoot数据访问.png]]
 # 第3章 SpringBoot数据访问
 
 ## 3.1 Spring Boot 数据访问概述

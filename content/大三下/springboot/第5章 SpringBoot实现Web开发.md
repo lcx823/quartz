@@ -5,7 +5,7 @@ created: 2026-03-22
 source: Cherry Studio
 tags:
 ---
-
+![[./assets/第5章 SpringBoot实现Web开发/第5章 SpringBoot实现Web开发.png|第5章 SpringBoot实现Web开发.png]]
 # 第5章 SpringBoot实现Web开发
 
 ## 5.1 Spring MVC 整合支持
