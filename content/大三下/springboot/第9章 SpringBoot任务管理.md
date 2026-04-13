@@ -5,7 +5,7 @@ created: 2026-03-22
 source: Cherry Studio
 tags:
 ---
-![[./assets/第9章 SpringBoot任务管理/第9章 SpringBoot任务管理.png|第9章 SpringBoot任务管理.png]]
+
 # 第9章 SpringBoot任务管理
 
 ## 9.1 异步任务
