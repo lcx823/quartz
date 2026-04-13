@@ -4,10 +4,10 @@ path: content
 en-filename: index
 title: 🏡 首页
 ---
-**欢迎来到刘臣轩的数字花园 🌱**
+**刘臣轩 | Digital Garden**
 
-这里是我基于 **Quartz + Obsidian** 构建的长效个人知识库。
+**Stack:** Quartz + Obsidian + GitHub
 
-在历经 WordPress、NotionNext (Hexo)、xLog 及 Hugo 等多种博客形态的迭代后，我最终决定在 AI 原生时代回归“文件夹式”的纯粹。正如 **Claude Code** 带来的命令行交互美感，我认为知识管理也应如此：结构清晰、响应迅速、回归本质。
+**Philosophy:** 在尝试过主流的博客方案后，我选择回归文件夹式的知识管理。在 AI-Native 时代，笔记应当像命令行一样直接、纯粹、易于维护。
 
-这是一个长期主义者的实验场。折腾不止，探索不停。
+这是一个持续更新的个人大脑，也是我不断折腾、探索技术边界的数字注脚。
