@@ -5,7 +5,7 @@ created: 2026-03-22
 source: Cherry Studio
 tags:
 ---
-![[./assets/第7章 SpringBoot安全管理/第7章 SpringBoot安全管理.png|第7章 SpringBoot安全管理.png]]
+
 # 第7章 SpringBoot安全管理
 
 ## 7.1 Spring Security 介绍
