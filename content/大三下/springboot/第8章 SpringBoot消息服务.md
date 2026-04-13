@@ -6,7 +6,7 @@ source: Cherry Studio
 tags:
 ---
 
-![[./assets/第8章 SpringBoot消息服务/第8章 SpringBoot消息服务.png|第8章 SpringBoot消息服务.png]]
+
 # 第8章 SpringBoot消息服务
 
 ## 8.1 消息服务概述
