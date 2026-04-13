@@ -1,14 +1,13 @@
 ---
 share: true
-title: 第1章 Spring Boot入门（应试使用）
+title: 第1章 Spring Boot入门
 created: 2026-03-22
 source: Cherry Studio
 tags:
 ---
 
 
-# 第1章 Spring Boot入门（应试使用）
-
+# 第1章 Spring Boot入门
 ## 1.1 Spring Boot 概述
 
 ### 认识Spring Boot
